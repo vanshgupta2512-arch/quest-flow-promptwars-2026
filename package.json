@@ -1,0 +1,9 @@
+{
+  "name": "questflow-ai",
+  "version": "1.0.0",
+  "description": "QuestFlow AI - Play Your Tasks. Finish Your Life. (Google for Developers × PromptWars 2026)",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "start": "node run.js"
+  }
+}

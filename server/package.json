@@ -1,0 +1,19 @@
+{
+  "name": "questflow-ai-server",
+  "version": "1.0.0",
+  "description": "Backend API, Gemini AI Engine & Background Task Execution for QuestFlow AI",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1",
+    "dotenv": "^16.4.5",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
